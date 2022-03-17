@@ -664,6 +664,15 @@ footer {
   header .right a {
     font-size: 16px;
   }
+  header .left {
+    display: none;
+  }
+  header .navbar-nav {
+    flex-direction: unset;
+  }
+  header .nav-item {
+    margin-right: 10px;
+  }
 
   .theme {
     height: 300px;
@@ -734,6 +743,9 @@ footer {
   .blog h1 {
     font-size: 30px;
   }
+  .blog .item {
+    margin: 1px;
+  }
   .blog .item img {
     height: 100px;
   }
@@ -753,11 +765,15 @@ footer {
   .more .img i {
     font-size: 30px;
   }
+  .more .info a {
+    display: none;
+  }
   .por h1 {
     font-size: 30px;
   }
-  .por .img {
-    width: 100%;
+
+  .por .img img {
+    width: 25%;
   }
   .subs h1 {
     font-size: 30px;
@@ -798,5 +814,11 @@ footer {
   }
   .nature h1 {
     font-size: 26px;
+  }
+  .form .input-group {
+    width: 350px;
+  }
+  .connect {
+    width: 350px;
   }
 }
